@@ -46,6 +46,7 @@
     <Compile Include="1001.cs" />
     <Compile Include="1002.cs" />
     <Compile Include="1003.cs" />
+    <Compile Include="1004.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
