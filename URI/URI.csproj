@@ -51,6 +51,7 @@
     <Compile Include="1006.cs" />
     <Compile Include="1007.cs" />
     <Compile Include="1008.cs" />
+    <Compile Include="1009.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
