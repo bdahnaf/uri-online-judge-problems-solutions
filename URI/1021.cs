@@ -6,7 +6,9 @@ namespace URI
     {
         public static void run()
         {
-            int number = Convert.ToInt32(Console.ReadLine());
+            double input = Convert.ToDouble(Console.ReadLine());
+            int number = (int)input;
+            //int number = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine(number);
             int hundred = number / 100;
             Console.WriteLine(hundred + " nota(s) de R$ 100,00");
@@ -25,9 +27,20 @@ namespace URI
             remainder = remainder % 5;
             int two = remainder / 2;
             Console.WriteLine(two + " nota(s) de R$ 2,00");
-            remainder = remainder % 2;
+            Console.WriteLine("MOEDAS:");
+            remainder = remainder % 2; 
             int one = remainder / 1;
-            Console.WriteLine(one + " nota(s) de R$ 1,00");
+            Console.WriteLine(one + " moeda(s) de R$ 1,00");
+            double fraction = Math.Round(input - (double)number, 2)*100;
+            number = (int)fraction;
+            fifty = number / 50;
+            Console.WriteLine(one + " moeda(s) de R$ 0.50");
+            remainder = number % 50;
+            int tfive = remainder / 25;
+            Console.WriteLine(one + " moeda(s) de R$ 0.25");
+            remainder = tfive / 10;
+          //  remainder = 
+            Console.WriteLine(fifty);
             Console.ReadKey();
         }
     }
