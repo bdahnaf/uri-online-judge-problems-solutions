@@ -2,7 +2,7 @@
 
 namespace URI
 {
-    class _1022
+    class _1035
     {
         public static void run()
         {
