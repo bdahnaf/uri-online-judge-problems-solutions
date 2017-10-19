@@ -22,7 +22,6 @@ namespace URI
             {
                 Console.WriteLine("Impossivel calcular");
             }
-            Console.ReadKey();
         }
     }
 }
