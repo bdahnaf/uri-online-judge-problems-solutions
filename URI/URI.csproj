@@ -65,6 +65,7 @@
     <Compile Include="1020.cs" />
     <Compile Include="1021.cs" />
     <Compile Include="1035.cs" />
+    <Compile Include="1036.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
