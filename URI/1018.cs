@@ -28,6 +28,7 @@ namespace URI
             remainder = remainder % 2;
             int one = remainder / 1;
             Console.WriteLine(one + " nota(s) de R$ 1,00");
+
         }
     }
 }
