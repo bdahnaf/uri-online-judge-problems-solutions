@@ -13,9 +13,19 @@ namespace URI
             double n4 = Convert.ToDouble(input[3]);
             double average = ((n1 * 2) + (n2 * 3) + (n3 * 4) + n4) / 10;
             Console.WriteLine("Media: " + String.Format("{0:0.0}", average));
-            if(average > 7.0)
+            if(average >= 7.0)
             {
                 Console.WriteLine("Aluno aprovado.");
+            }
+            else if (average >= 5 && average <= 6.9)
+            {
+                Console.WriteLine("Aluno em exame.");
+                double n5 = Convert.ToDouble(Console.ReadLine());
+
+            }
+            else if (average < 5)
+            {
+                Console.WriteLine("Aluno reprovado.");
             }
             Console.ReadKey();
         }
