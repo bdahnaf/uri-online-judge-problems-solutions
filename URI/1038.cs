@@ -31,7 +31,6 @@ namespace URI
                 price = 1.50;
             }
             Console.WriteLine("Total: R$ " + String.Format("{0:0.00}", price*quantity));
-            Console.ReadKey();
         }
     }
 }
