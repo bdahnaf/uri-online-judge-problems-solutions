@@ -16,7 +16,6 @@ namespace URI
                 Console.WriteLine("Valores aceitos");
             } 
             else Console.WriteLine("Valores nao aceitos");
-            Console.ReadKey();
         }
     }
 }

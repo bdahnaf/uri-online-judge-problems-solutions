@@ -25,7 +25,6 @@ namespace URI
                 Console.WriteLine("Intervalo (75,100]");
             }
             else Console.WriteLine("Fora de intervalo");
-            Console.ReadKey();
         }
     }
 }
