@@ -41,7 +41,6 @@ namespace URI
             {
                 Console.WriteLine("Aluno reprovado.");
             }
-            Console.ReadKey();
         }
     }
 }
