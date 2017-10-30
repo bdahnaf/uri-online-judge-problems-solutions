@@ -82,6 +82,23 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="SQL\2602.sql" />
+    <Content Include="SQL\2603.sql" />
+    <Content Include="SQL\2604.sql" />
+    <Content Include="SQL\2605.sql" />
+    <Content Include="SQL\2606.sql" />
+    <Content Include="SQL\2607.sql" />
+    <Content Include="SQL\2608.sql" />
+    <Content Include="SQL\2609.sql" />
+    <Content Include="SQL\2610.sql" />
+    <Content Include="SQL\2611.sql" />
+    <Content Include="SQL\2612.sql" />
+    <Content Include="SQL\2613.sql" />
+    <Content Include="SQL\2614.sql" />
+    <Content Include="SQL\2615.sql" />
+    <Content Include="SQL\2616.sql" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
