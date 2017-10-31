@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace URI
+{
+    class _1052
+    {
+        public static void run()
+        {
+            int date = Convert.ToInt32(Console.ReadLine());
+
+        }
+    }
+}
