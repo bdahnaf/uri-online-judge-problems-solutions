@@ -102,6 +102,7 @@
     <Content Include="SQL\2615.sql" />
     <Content Include="SQL\2616.sql" />
     <Content Include="SQL\2617.sql" />
+    <Content Include="SQL\2618.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
