@@ -7,7 +7,7 @@ namespace URI
         static void Main(string[] args)
         {
             //Call the corresponding class for a specific program
-            _1052.run();
+            _1059.run();
         }
     }
 }
