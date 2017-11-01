@@ -7,12 +7,21 @@ namespace URI
         public static void run()
         {
             int number = Convert.ToInt32(Console.ReadLine());
-            for (int i = 1; i <= number; i++)
+            int range = number + 12;
+            for (int i = number; i <= range; i++)
             {
+                if (i == number)
+                {
+                    if(i%2 != 0)
+                    {
+                        range--;
+                    }
+                }
                 if (i % 2 != 0)
                 {
                     Console.WriteLine(i);
                 }
+
             }
         }
     }
