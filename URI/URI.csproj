@@ -90,6 +90,7 @@
     <Compile Include="1071.cs" />
     <Compile Include="1072.cs" />
     <Compile Include="1073.cs" />
+    <Compile Include="1074.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
