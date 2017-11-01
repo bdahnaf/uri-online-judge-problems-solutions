@@ -6,37 +6,22 @@ namespace URI
     {
         public static void run()
         {
-            int number1 = Convert.ToInt32(Console.ReadLine());
-            int number2 = Convert.ToInt32(Console.ReadLine());
-            int sum = 0;
-            int count = 0;
-            int avg = 0;
-            if (number1 > number2)
+            int loopCount = Convert.ToInt32(Console.ReadLine());
+            int loop = 0;
+            int inCount = 0;
+            int outCount = 0;
+            while(loop < loopCount)
             {
-                number2++;
-                for (int i = number2; i < number1; i++)
+                int number = Convert.ToInt32(Console.ReadLine());
+                if (number >= 10 && number <= 20)
                 {
-                    if (i % 2 != 0)
-                    {
-                        count++;
-                        sum = i + sum;
-                    }
+                    inCount++;
                 }
+                else outCount++;
+                loop++;
             }
-            else if (number2 > number1)
-            {
-                number1++;
-                for (int i = number1; i < number2; i++)
-                {
-                    if (i % 2 != 0)
-                    {
-                        count++;
-                        sum = i + sum;
-                    }
-                }
-            }
-            else Console.WriteLine("0");
-            Console.WriteLine(sum);
+            Console.WriteLine(inCount + " in");
+            Console.WriteLine(outCount + " out");
         }
     }
 }
