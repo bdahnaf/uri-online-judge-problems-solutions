@@ -1,12 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace URI
 {
     class _1075
     {
+        public static void run()
+        {
+            int range = Convert.ToInt32(Console.ReadLine());
+           
+        }
     }
 }
