@@ -16,6 +16,7 @@ namespace URI
                 double number3 = Convert.ToDouble(input[2]);
                 output[i-1] = String.Format("{0:0.0}", ((number1 * 2 + number2 * 3 + number3 * 5) / 10));
             }
+
             for(int i = 0; i < range; i++)
             {
                 Console.WriteLine(output[i]);
