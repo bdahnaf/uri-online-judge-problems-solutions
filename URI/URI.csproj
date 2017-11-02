@@ -93,6 +93,7 @@
     <Compile Include="1074.cs" />
     <Compile Include="1075.cs" />
     <Compile Include="1078.cs" />
+    <Compile Include="1079.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -117,6 +118,7 @@
     <Content Include="SQL\2616.sql" />
     <Content Include="SQL\2617.sql" />
     <Content Include="SQL\2618.sql" />
+    <Content Include="SQL\2621.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
