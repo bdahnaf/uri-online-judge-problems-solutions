@@ -100,6 +100,9 @@
     <Compile Include="1095.cs" />
     <Compile Include="1114.cs" />
     <Compile Include="1115.cs" />
+    <Compile Include="1116.cs" />
+    <Compile Include="1117.cs" />
+    <Compile Include="1143.CS" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
