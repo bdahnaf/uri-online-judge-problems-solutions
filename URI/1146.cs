@@ -10,9 +10,27 @@ namespace URI
     {
         public static void run()
         {
-            int number1 = Convert.ToInt32(Console.ReadLine());
-            int number2 = Convert.ToInt32(Console.ReadLine());
-
+            while (true)
+            {
+                int number = Convert.ToInt32(Console.ReadLine());
+                if (number == 0)
+                {
+                    return;
+                }
+                for(int i = 1; i <= number; i++)
+                {
+                    if (i == number)
+                    {
+                        Console.Write(i);
+                    }
+                    else
+                    {
+                        Console.Write(i + " ");
+                    }
+                }
+                Console.WriteLine();
+            }
+            Console.ReadKey();
         }
     }
 }
