@@ -6,10 +6,22 @@ namespace URI
     {
         public static void run()
         {
-            while (true)
+            int X = Convert.ToInt32(Console.ReadLine());
+            int Z = Convert.ToInt32(Console.ReadLine());
+            int sum = 0;
+            int count = 0;
+            while(X >= Z)
             {
-                int X = Convert.ToInt32(Console.ReadLine());
+                Z = Convert.ToInt32(Console.ReadLine());
             }
+            int i = X;
+            while (sum < Z)
+            {
+                sum = sum + i;
+                count++;
+                i++;
+            }
+            Console.WriteLine(count);
         }
     }
 }
