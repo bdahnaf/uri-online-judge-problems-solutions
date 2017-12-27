@@ -16,6 +16,7 @@ namespace URI
                 lower = lower + lower;
             }
             Console.WriteLine(String.Format("{0:0.00}", sum));
+
         }
     }
 }
