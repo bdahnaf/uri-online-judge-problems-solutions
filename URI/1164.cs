@@ -15,13 +15,9 @@ namespace URI
                 {
                     if(number % j == 0)
                     {
-                        if (j % 2 == 0)
-                        {
-                            sum = sum + j;
-                        }
+                        sum = sum + j;
                     }
                 }
-                Console.WriteLine(sum);
                 if (sum == number)
                 {
                     Console.WriteLine(number + " eh perfeito");
