@@ -7,6 +7,7 @@ namespace URI
         public static void run()
         {
             int number = Convert.ToInt32(Console.ReadLine());
+
             int[] input = new int[10];
             input[0] = number;
             for (int i = 1; i < 10; i++)
