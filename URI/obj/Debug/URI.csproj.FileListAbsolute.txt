@@ -1,3 +1,6 @@
 C:\Users\Ahnaf Shahriar\Source\Repos\uri-online-judge-problems-solutions\URI\bin\Debug\URI.exe.config
 C:\Users\Ahnaf Shahriar\Source\Repos\uri-online-judge-problems-solutions\URI\obj\Debug\URI.exe
 C:\Users\Ahnaf Shahriar\Source\Repos\uri-online-judge-problems-solutions\URI\obj\Debug\URI.pdb
+C:\Users\Ahnaf Shahriar\Source\Repos\uri-online-judge-problems-solutions\URI\bin\Debug\URI.exe
+C:\Users\Ahnaf Shahriar\Source\Repos\uri-online-judge-problems-solutions\URI\bin\Debug\URI.pdb
+C:\Users\Ahnaf Shahriar\Source\Repos\uri-online-judge-problems-solutions\URI\obj\Debug\URI.csprojResolveAssemblyReference.cache
